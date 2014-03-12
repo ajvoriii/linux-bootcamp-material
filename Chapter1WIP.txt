@@ -7,3 +7,6 @@ In layman’s terms a runlevel is a list of programs that run when Linux starts 
 
 The root of all Linux (init)
 init Is shorthand for initialize which is exactly what the init program does: It initializes the rest of the system. Because it is responsible for the system initializing, it only makes sense that it is the first program to run on the system, in fact all other programs are started either by init itself or a program that was started by init. Thus init is the parent process of all other processes. 
+
+Who's your daddy? (initd)
+lol just kidding.
