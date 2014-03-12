@@ -1,0 +1,9 @@
+﻿Runlevels
+
+
+What is a runlevel?
+In layman’s terms a runlevel is a list of programs that run when Linux starts up. This list of programs is given to a program called. There are 7 runlevels each with Its own list of programs to run and programs not to run. We will be discussing each of these runlevels later on in the chapter.
+
+
+The root of all Linux (init)
+init Is shorthand for initialize which is exactly what the init program does : It initializes the rest of the system. Because is responsible for the system initializing it only makes sense that it is the first program to run on the system, in fact all other programs are started either by init itself or a program that was started by init.
